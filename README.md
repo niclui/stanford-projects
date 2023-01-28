@@ -26,11 +26,13 @@ Question Answering (QA), or the task of asking a model to answer a question corr
 We implement a variety of techniques that boost the robustness of a QA model trained with domain adversarial learning and evaluated on out-of-domain data, yielding a 16% increase in F1 score in development and 10% increase in test. We find that the following innovations boost model performance: 1) finetuning the model on augmented out-of-domain augmented data, 2) aggregating Wikipedia type datasets during adversarial training to simplify the domain discriminator’s task, and 3) supplementing the training data with synthetic QA pairs generated with roundtrip consistency. We also ensemble the best-performing models on each dataset and find that ensembling yields further performance increases.
 
 
-## [Synthetic Data for Semantic Image Segmentation of Imagery of Unmanned Spacecraft](Time%20Series%20Analysis)
+## Synthetic Data for Semantic Image Segmentation of Imagery of Unmanned Spacecraft
 
 **Published at 2023 IEEE Aerospace Conference**
 
 [Paper](https://arxiv.org/abs/2211.11941)
+
+Class: [CS 230](https://cs230.stanford.edu/) - Deep Learning
 
 Images of spacecraft photographed from other spacecraft operating in outer space are difficult to come by, especially
 at a scale typically required for deep learning tasks. Semantic
@@ -50,11 +52,11 @@ benchmark result (Sørensen-Dice coefficient 0.8723) on these synthetic data, su
 image segmentation models for this task, especially if the target
 spacecraft and its configuration are known.
 
-## [Gastro-Intestinal Tract Segmentation Using Multi-Task Learning](Time%20Series%20Analysis)
+## Gastro-Intestinal Tract Segmentation Using Multi-Task Learning
 
-[Report](/Natural%20Language%20Processing%20with%20Deep%20Learning/Report%20-%20Generating%20Robustness.pdf)
+[Report](/Computer_Vision/CV_Report.pdf)
 
-[Poster](/Natural%20Language%20Processing%20with%20Deep%20Learning/Academic%20Poster%20-%20Generating%20Robustness.pdf)
+[Poster](/Computer_Vision/CV_Poster.pdf)
 
 Class: [CS 231N](http://cs231n.stanford.edu/) - Computer Vision
 
