@@ -54,9 +54,7 @@ spacecraft and its configuration are known.
 
 ## Gastro-Intestinal Tract Segmentation Using Multi-Task Learning
 
-[Report](/Computer_Vision/CV_Report.pdf)
-
-[Poster](/Computer_Vision/CV_Poster.pdf)
+[Report](/Computer_Vision/CV_Report.pdf) | [Poster](/Computer_Vision/CV_Poster.pdf)
 
 Class: [CS 231N](http://cs231n.stanford.edu/) - Computer Vision
 
