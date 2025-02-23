@@ -2,6 +2,14 @@
 
 This repo holds the projects I worked on during my M.S. in Statistics at Stanford.
 
+## Leveraging Diffusion Perturbations for Measuring Fairness in Computer Vision
+
+**First author, presented at AAAI 2024**
+
+[Paper](https://arxiv.org/abs/2311.15108) | [Code](https://github.com/niclui/diffusion-perturbations)
+
+Computer vision models have been known to encode harmful biases, leading to the potentially unfair treatment of historically marginalized groups, such as people of color. However, there remains a lack of datasets balanced along demographic traits that can be used to evaluate the downstream fairness of these models. In this work, we demonstrate that diffusion models can be leveraged to create such a dataset. We first use a diffusion model to generate a large set of images depicting various occupations. Subsequently, each image is edited using inpainting to generate multiple variants, where each variant refers to a different perceived race. Using this dataset, we benchmark several vision-language models on a multi-class occupation classification task. We find that images generated with non-Caucasian labels have a significantly higher occupation misclassification rate than images generated with Caucasian labels, and that several misclassifications are suggestive of racial biases. We measure a model's downstream fairness by computing the standard deviation in the probability of predicting the true occupation label across the different perceived identity groups. Using this fairness metric, we find significant disparities between the evaluated vision-and-language models. We hope that our work demonstrates the potential value of diffusion methods for fairness evaluations.
+
 ## METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping
 
 **Co-first author, presented at IJCAI-ECAI 2022 Workshop on Complex Data Challenges in Earth Observations**
